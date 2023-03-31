@@ -1,27 +1,27 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
 
 <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-
-    <title>Segunda pre-entrega</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsivo</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha2/dist/css/bootstrap.min.css" rel="stylesheet"
         integrity="sha384-aFq/bzH65dt+w6FI2ooMVUpc+21e0SRygnTpmBvdBgSdnuTN7QbdgL+OapgHtvPp" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
-    <link rel="stylesheet" href="css/style.css">
+
+    <link rel="stylesheet" href="../css/style.css">
 </head>
 
 <body>
-
     <!-- Encabezado  -------------------------------->
 
     <nav class="navbar navbar-expand-lg bg-black" id="header">
         <div class="container-fluid">
             <a class="navbar-brand link-warning" href="index.html">
-                <img src="img/coder.png" alt="Logo" class="rounded-end-circle border border-4 border-light col-5">
+                <img src="../img/coder.png" alt="Logo" class="rounded-end-circle border border-4 border-light col-5">
             </a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -30,73 +30,125 @@
             <div class="collapse navbar-collapse text-white" id="navbarNav">
                 <ul class="navbar-nav">
                     <li class="nav-item ">
-                        <a class="nav-link active text-white" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link active text-white" aria-current="page" href="../index.html">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/page/gitHub.html">GitHub</a>
+                        <a class="nav-link text-white" href="gitHub.html">GitHub</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/page/maquetado.html">Maquetado</a>
+                        <a class="nav-link text-white" href="maquetado.html">Maquetado</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link text-white" href="/page/responsivo.html">Responsivo</a>
+                        <a class="nav-link text-white" href="responsivo.html">Responsivo</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link disabled text-white-50"> Animate, construye un gran proyecto!
-                        </a>
+                        <a class="nav-link disabled text-white-50">Animate, construye un gran proyecto!</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Fin del encabezado -------------------------->
-
-    <!-- Inicio del cuerpo principal  ---------------->
-
-    <main class="p-12 bg-warning-subtle container-fluid pb-lg-5">
-
+    <main class=" bg-warning-subtle pt-5">
         <!-- Bienvenida  -->
 
-        <div class="container m-auto text-center row pt-5 pb-xxl-5 height" id="principal">
+        <div class="container m-auto row pt-5 pb-xxl-5" id="principal">
 
-            <div class="m-auto">
+            <div class="container m-auto text-center row  p-xxl-5 height" id="principal">
 
-                <h1>Hola a todos! <span></span></h1>
+                <div class="m-auto">
 
-                <h1>Bienvenidos a...<span></span></h1>
+                    <h1>Responsivo<span></span></h1>
 
-                <h1>Esta segunda pre-entrega!<span></span></h1>
+                    <div class="text-start">
 
-                <div class="text-start">
+                        <button type="button" class="btn btn-dark">
 
-                    <p>Les dejo los detalles de la seguna pre-entrega en los enlaces del encabezado, espero les resulte util. exitos!</p>
+                            <a href="https://docs.google.com/presentation/d/165JurhrvBZiB-sLm1VXkBTCBnArswohaehX9ZhVxbpA/preview?slide=id.g191e0f493f5_6_0"
+                                class="nav-link" target="_blank">
+                                Ver consigna
+                            </a>
 
-                    <button type="button" class="btn btn-dark">
+                        </button>
 
+                    </div>
+
+                </div>
+
+                <a class="m-auto align-content-center" href="#responsivo">
+
+                    <img src="https://www.gifsanimados.org/data/media/111/flecha-imagen-animada-0311.gif" border="0"
+                        alt="flecha-imagen-animada-0311" />
+
+                </a>
+
+            </div>
+
+            <div id="responsivo">
+                <ol>
+                    <li>
+                        <p>
+                            Diseño responsive: se piden dos html. Esto quiere decir que si yo desde el inspector veo su
+                            página la
+                            misma debe adaptarse desde 320px en adelante sin scroll horizontal.
+                        </p>
+                        <p>
+                            La mejor manera de ver si mi página
+                            es responsive es enviarse en el link de Github Pages y abrirlo desde un celular, si se va
+                            mal la
+                            página
+                            no es responsive y algo lo genera usualmente algún width, margin o padding que desborda del
+                            ancho de
+                            la
+                            pantalla.
+                        </p>
+                        <img src="../img/responsivo.png" alt="responsivo" class="col-12">
+                    </li>
+                    <hr>
+                    <li class="row">
+                        <p>
+                            Animaciones, efectos o transiciones: utilicen las que deseen pero que la página no sea un
+                            zamba
+                            que
+                            cueste navegarla.
+                        </p>
+                        <div>
+                            <ul>
+                                <li>
+                                    <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                        href="https://animate.style/#documentation" target="_blank"
+                                        rel="noopener noreferrer">https://animate.style/#documentation</a>
+                                </li>
+                                <li>
+                                    <a class="link-warning link-offset-2 link-underline-opacity-25 link-underline-opacity-100-hover"
+                                        href="https://michalsnik.github.io/aos/" target="_blank"
+                                        rel="noopener noreferrer">https://michalsnik.github.io/aos/</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    </ol>
+                    <button type="button" class="btn btn-dark mt-5">
                         <a href="https://docs.google.com/presentation/d/165JurhrvBZiB-sLm1VXkBTCBnArswohaehX9ZhVxbpA/preview?slide=id.g191e0f493f5_6_0"
                             class="nav-link" target="_blank">
                             Ver consigna
                         </a>
-
                     </button>
-
-                </div>
-
+                </ol>
             </div>
 
-        </div>
 
+            <div id="flecha 11014" &#11014;>
+
+            </div>
     </main>
-
-    <!-- Fin del cuerpo principal  ------------------->
 
     <!-- Principio del pie de pagina  ---------------->
 
     <footer class="bg-black">
         <div class="d-flex justify-content-between">
             <div class="p-2 col-4 text-center text-white">@copywriting [Tutor] Martin Aguilar</div>
-           
+
             <div class="p-2 col-4 text-center text-white">
                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor"
                     class="bi bi-whatsapp" viewBox="0 0 16 16">
@@ -133,7 +185,6 @@
     <script>
         AOS.init();
     </script>
-
 </body>
 
 </html>

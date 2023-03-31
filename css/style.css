@@ -1,9 +1,12 @@
 
-.main{
+
+/* ////////////////////////////  */
+
+.main {
     height: 100vh;
 }
 
-.div{
+.div {
     height: 250px;
     background-color: purple;
     color: white;
@@ -11,6 +14,11 @@
     margin: 20px;
 }
 
+.height { /*  altura para el bloque de bienvenida */
+    height: 80vh;
+}
+
+/* ////////////////////////////  */
 
 #principal h1 {
     display: block;
@@ -84,4 +92,29 @@
         color: rgba(244, 191, 1, 0.877);
         font-weight: 500;
     }
+}
+
+
+@keyframes moviendrew {
+    0% {
+        transform: translateY(0px);
+    }
+
+    100% {
+        transform: translateY(20px);
+    }
+}
+
+
+
+
+/* ////////////////////////////  */
+
+
+#flecha {
+    animation-name: moviendrew;
+    animation-duration: 0.5s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    font-size: 100px;
 }
