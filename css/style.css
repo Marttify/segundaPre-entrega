@@ -81,7 +81,7 @@
 
 @keyframes mostrar_texto_nombre {
     100% {
-        color: rgb(230, 221, 60);
+        color: rgba(244, 191, 1, 0.877);
         font-weight: 500;
     }
 }
