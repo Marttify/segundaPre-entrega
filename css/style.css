@@ -110,15 +110,6 @@
 /* ////////////////////////////  */
 
 
-#flecha {
-    animation-name: moviendrew;
-    animation-duration: 0.5s;
-    animation-iteration-count: infinite;
-    animation-direction: alternate;
-    font-size: 100px;
-    min-width: none;
-}
-
 
 @media (max-width: 1000px ) {
 
