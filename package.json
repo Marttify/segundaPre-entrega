@@ -1,0 +1,19 @@
+{
+  "name": "segundapre-entrega",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Aguilar1998/segundaPre-entrega.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Aguilar1998/segundaPre-entrega/issues"
+  },
+  "homepage": "https://github.com/Aguilar1998/segundaPre-entrega#readme"
+}
